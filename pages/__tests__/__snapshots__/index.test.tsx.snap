@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> Should render and match snapshot 1`] = `
+<div
+  className="max-w-sm mx-auto my-4 bg-white overflow-hidden"
+>
+  <div
+    className="rounded overflow-hidden border border-blue-200"
+  >
+    <div
+      className="bg-blue-100 p-2 text-blue-300"
+    >
+      Weather in 
+      <span
+        className="font-bold"
+      >
+        cityName
+      </span>
+    </div>
+    <WeatherInformation />
+    <FormSearch
+      searchText="Search"
+      submit={[Function]}
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,66 @@
+{
+  "name": "create-next-example-app",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "dependencies": {
+    "@zeit/next-typescript": "^1.1.1",
+    "axios": "^0.19.0",
+    "next": "9.0.1",
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "@fullhuman/postcss-purgecss": "^1.2.0",
+    "@testing-library/react": "^8.0.5",
+    "@types/axios": "^0.14.0",
+    "@types/enzyme": "^3.10.2",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/faker": "^4.1.5",
+    "@types/jest": "^24.0.15",
+    "@types/next": "^8.0.6",
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4",
+    "@zeit/next-css": "^1.0.1",
+    "autoprefixer": "^9.6.1",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^24.8.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-app": "^9.0.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "enzyme-to-json": "^3.3.5",
+    "faker": "^4.1.0",
+    "jest": "^24.8.0",
+    "jooks": "0.0.16",
+    "postcss-import": "^12.0.1",
+    "react-test-renderer": "^16.8.6",
+    "tailwindcss": "^1.0.5",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.3"
+  },
+  "browserslist": {
+    "development": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 edge versions"
+    ],
+    "production": [
+      ">1%",
+      "last 4 versions",
+      "Firefox ESR",
+      "not ie < 11"
+    ]
+  }
+}

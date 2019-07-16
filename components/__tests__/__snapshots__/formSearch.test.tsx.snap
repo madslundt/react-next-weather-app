@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormSearch /> Should render and match snapshot 1`] = `
+<form
+  className="p-2 flex justify-between"
+  method="GET"
+  onSubmit={[Function]}
+>
+  <input
+    className="border border-gray-200 rounded p-1 flex-grow"
+    name="city"
+    onChange={[Function]}
+    placeholder="City"
+    required={true}
+    type="text"
+    value=""
+  />
+  <button
+    className="hover:bg-gray-100 hover:border-gray-300 py-1 px-4 ml-1 border border-gray-200 rounded"
+    type="submit"
+  />
+</form>
+`;
